@@ -1,10 +1,16 @@
 import adapter from "@sveltejs/adapter-auto"
 import { vitePreprocess } from "@sveltejs/kit/vite"
+import autoImport from "sveltekit-autoimport"
 
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: vitePreprocess(),
+	preprocess: [
+		autoImport({
+			components: ["./src/components"],
+		}),
+		vitePreprocess(),
+	],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

@@ -17,7 +17,7 @@
     "sveltekit-autoimport": "^1.7.0",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2",
-    "vite": "^5.4.20"
+    "vite": "^5.4.21"
   },
   "type": "module",
   "dependencies": {

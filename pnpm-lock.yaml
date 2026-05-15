@@ -22,7 +22,7 @@ importers:
         specifier: ^2.52.2
         version: 2.52.2(@sveltejs/vite-plugin-svelte@2.0.3(svelte@5.53.6)(vite@6.4.2(sass@1.59.3)))(svelte@5.53.6)(typescript@5.0.2)(vite@6.4.2(sass@1.59.3))
       svelte:
-        specifier: ^5.53.6
+        specifier: ^5.53.5
         version: 5.53.6
       svelte-check:
         specifier: ^3.1.4
